@@ -15,6 +15,11 @@ SECTOR_STOCKS = {
     'utilities': ['NEE', 'DUK', 'SO', 'D', 'EXC', 'AEP', 'SRE', 'PEG', 'XEL', 'ED', 'EIX', 'ES', 'FE', 'AEE', 'CMS']
 }
 
+# Fortune 500 Stock Symbols - 597 publicly traded companies
+FORTUNE_500_STOCKS = [
+    'A', 'AAOI', 'AAP', 'AAPL', 'ABBV', 'ABNB', 'ABT', 'ACAD', 'ACEL', 'ACN', 'ADBE', 'ADI', 'ADMA', 'ADSK', 'ADYEY', 'AFRM', 'AGIO', 'AGS', 'AIG', 'AJG', 'AKAM', 'AKER', 'ALKS', 'ALL', 'ALGN', 'AM', 'AMAT', 'AMGN', 'AMPE', 'AMTD', 'AMWL', 'AMZN', 'ANSS', 'AON', 'APA', 'APDN', 'APPF', 'AR', 'ARCC', 'ANET', 'ARQL', 'AROC', 'ARWR', 'ATOS', 'ATRO', 'AVAV', 'AVGO', 'AVIR', 'AXP', 'AZO', 'BA', 'BAC', 'BABA', 'BANC', 'BANF', 'BATRA', 'BATRK', 'BAX', 'BBBY', 'BBY', 'BDX', 'BEAM', 'BCRX', 'BJ', 'BIDU', 'BILL', 'BIIB', 'BKR', 'BLK', 'BMBL', 'BMY', 'BKNG', 'BOKF', 'BORR', 'BPT', 'BBOX', 'BRKL', 'BRK.A', 'BRK.B', 'BRO', 'BSM', 'BSX', 'BYD', 'C', 'CAH', 'CACI', 'CADE', 'CAT', 'CAMP', 'CAPL', 'CARA', 'CATY', 'CB', 'CBAY', 'CBOE', 'CBSH', 'CCL', 'CDNA', 'CDNS', 'CDTX', 'CDXS', 'CELG', 'CEQP', 'CHCO', 'CHDN', 'CHRD', 'CHSCP', 'CHTR', 'CI', 'CIEN', 'CMA', 'CME', 'CMG', 'CMCSA', 'CNOB', 'CNX', 'COCP', 'COF', 'COHU', 'COIN', 'COLB', 'COLL', 'COMP', 'COP', 'COR', 'COST', 'COUP', 'CPRX', 'CRGY', 'CRL', 'CRM', 'CRSP', 'CRWD', 'CSCO', 'CSH', 'CTLT', 'CTRA', 'CVR', 'CVS', 'CVX', 'CW', 'CZR', 'CZWI', 'DASH', 'DCOM', 'DDOG', 'DG', 'DGX', 'DHR', 'DGII', 'DINO', 'DIS', 'DISH', 'DK', 'DKNG', 'DLTR', 'DMLP', 'DNLI', 'DOCU', 'DOYU', 'DRUG', 'DRIO', 'DVAX', 'DVN', 'DXCM', 'EDIT', 'EARS', 'EASL', 'EGBN', 'ELV', 'ENDP', 'ENSG', 'ENLC', 'ENVA', 'ENTX', 'EOG', 'EPZM', 'EQT', 'ESTC', 'ESLT', 'ET', 'ETFC', 'EW', 'EWBC', 'EXAS', 'EXPE', 'EXPI', 'EXR', 'EZPW', 'F', 'FANG', 'FBNC', 'FCFS', 'FDMT', 'FFBC', 'FFIN', 'FFIV', 'FITB', 'FLIC', 'FLUT', 'FNLC', 'FNSR', 'FOLD', 'FORM', 'FRME', 'FSLY', 'FTI', 'FTNT', 'FULT', 'FUBO', 'FUTU', 'FWONA', 'FWONK', 'GBCI', 'GDRX', 'GD', 'GDDY', 'GE', 'GEHC', 'GENI', 'GILD', 'GILT', 'GLPG', 'GM', 'GMBL', 'GME', 'GNOG', 'GOOG', 'GOOGL', 'GPOR', 'GRAB', 'GRMN', 'GRUB', 'GS', 'GSBC', 'GSAT', 'GWRE', 'HAFC', 'HAL', 'HALO', 'HBAN', 'HD', 'HGEN', 'HGTY', 'HII', 'HIMS', 'HLT', 'HOLX', 'HOMB', 'HON', 'HOOD', 'HOPE', 'HOUS', 'HP', 'HSNI', 'HTLF', 'HUYA', 'HWM', 'HZNP', 'H', 'IACI', 'IBKR', 'IBOC', 'IBM', 'ICE', 'IDXX', 'IHG', 'ILMN', 'IMGN', 'INDB', 'INSG', 'INTC', 'INTU', 'INO', 'IONS', 'IRDM', 'IQV', 'ISRG', 'JAZZ', 'JD', 'JFIN', 'JNJ', 'JNPR', 'JPM', 'KEY', 'KLAC', 'KMI', 'KO', 'KPTI', 'KRP', 'KRYS', 'KTOS', 'KURA', 'LBRT', 'LC', 'LBRDA', 'LBRDK', 'LDOS', 'LFMD', 'LH', 'LHX', 'LIN', 'LITE', 'LKFN', 'LLY', 'LMND', 'LMT', 'LNG', 'LNW', 'LOW', 'LPCN', 'LRCX', 'LSXMA', 'LSXMB', 'LSXMK', 'LULU', 'LVS', 'LYFT', 'MA', 'MAIN', 'MAR', 'MASS', 'MCHP', 'MCK', 'MCO', 'MCD', 'MDB', 'MDT', 'MELI', 'META', 'MET', 'MGM', 'MKTX', 'MNKD', 'MOG.A', 'MOG.B', 'MOMO', 'MPC', 'MPLX', 'MRCY', 'MREO', 'MRK', 'MRLN', 'MRNA', 'MRO', 'MRSN', 'MS', 'MSCI', 'MSFT', 'MTCH', 'MTD', 'MTDR', 'MVO', 'MYL', 'MYGN', 'NBTB', 'NCLH', 'NDAQ', 'NET', 'NEWT', 'NEWR', 'NEXT', 'NFLX', 'NKE', 'NKTR', 'NOC', 'NOV', 'NOW', 'NPK', 'NRIM', 'NTES', 'NTLA', 'NVAX', 'NVDA', 'NVTA', 'NXTC', 'OCFC', 'OCGN', 'OKTA', 'OKE', 'OMCL', 'ONDK', 'ONEM', 'ONT', 'OPEN', 'ORBC', 'ORCL', 'ORLY', 'OSCR', 'OTIC', 'OXY', 'OZK', 'PAA', 'PACB', 'PACW', 'PAGP', 'PANW', 'PAYC', 'PBF', 'PBFX', 'PBT', 'PCTY', 'PCRX', 'PCVX', 'PDD', 'PEAR', 'PENN', 'PEP', 'PFBC', 'PFE', 'PG', 'PGR', 'PIPR', 'PKI', 'PLAN', 'PLXS', 'PNC', 'PNFP', 'PODD', 'POWI', 'PPBI', 'PRGO', 'PRGS', 'PRTA', 'PRU', 'PSX', 'PSXP', 'PTEN', 'PTC', 'PTCT', 'PUMP', 'PVBC', 'PXD', 'PYPL', 'QCOM', 'QFIN', 'QGEN', 'QVCA', 'QVCB', 'RAD', 'RARE', 'RBCAA', 'RCII', 'RCL', 'RDFN', 'REGN', 'RF', 'RGNX', 'RLFTF', 'RLAY', 'RLMD', 'RMAX', 'ROKU', 'ROOT', 'ROST', 'RRC', 'RSI', 'RTX', 'SAGE', 'SAIC', 'SAFT', 'SAVA', 'SBSI', 'SBUX', 'SCHW', 'SDGR', 'SE', 'SEER', 'SF', 'SFM', 'SGEN', 'SGMS', 'SHOP', 'SIRI', 'SIVB', 'SJT', 'SLB', 'SMLR', 'SM', 'SNPS', 'SNOW', 'SNV', 'SOFI', 'SPGI', 'SPSC', 'SPLK', 'SQ', 'SRAD', 'SRLP', 'STFC', 'SYK', 'SYNH', 'T', 'TBBK', 'TCBI', 'TCEHY', 'TDOC', 'TEAM', 'TECH', 'TELL', 'TEVA', 'TFC', 'TGT', 'TIGR', 'TJX', 'TME', 'TMO', 'TMUS', 'TNDM', 'TOWN', 'TPTX', 'TREE', 'TRGP', 'TRIP', 'TRV', 'TSLA', 'TWLO', 'TWST', 'TXT', 'TXMD', 'TXN', 'UBER', 'UBSI', 'UFCS', 'UH', 'ULTA', 'UMBF', 'UNH', 'UPS', 'UPST', 'USB', 'USAC', 'UTHR', 'UVSP', 'V', 'VEEV', 'VERV', 'VIAV', 'VIR', 'VIRT', 'VLO', 'VNOM', 'VRTX', 'VSAT', 'VTRS', 'VZ', 'WABC', 'WAFD', 'WAT', 'WATT', 'WBA', 'WDAY', 'WES', 'WFC', 'WH', 'WIXQ', 'WMB', 'WMT', 'WORK', 'WRLD', 'WSFS', 'WTFC', 'WTTR', 'WYNN', 'XENT', 'XFOR', 'XNCR', 'XOM', 'XRAY', 'YY', 'YUM', 'ZBH', 'ZION', 'ZM', 'ZTS', 'ZYME'
+]
+
 def get_stock_forecast(symbol):
     try:
         stock = yf.Ticker(symbol)
@@ -331,11 +336,12 @@ def main():
         print("2. Multiple stocks (custom list)")
         print("3. Sector analysis")
         print("4. All sectors analysis (125 stocks, ~15 minutes)")
-        print("5. Quit")
+        print("5. Fortune 500 analysis (597 stocks, ~50 minutes)")
+        print("6. Quit")
         
-        choice = input("\nEnter your choice (1-5): ").strip()
+        choice = input("\nEnter your choice (1-6): ").strip()
         
-        if choice == '5':
+        if choice == '6':
             print("Goodbye!")
             break
         
@@ -399,8 +405,47 @@ def main():
                     filename = f"full_market_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
                     save_results_to_file(results, filename)
         
+        elif choice == '5':
+            # Fortune 500 analysis
+            print("\n💼 FORTUNE 500 COMPREHENSIVE ANALYSIS")
+            print("This will analyze ALL 597 Fortune 500 publicly traded companies.")
+            print("⏱️  Estimated time: ~50 minutes (5s delay per stock)")
+            print("💾 Progress will be saved automatically every 100 stocks.")
+            print("🛑 You can stop anytime with Ctrl+C and results will be saved.")
+            print("\n⚠️  WARNING: This is a massive analysis that will:")
+            print("   • Make 597 API requests to Yahoo Finance")
+            print("   • Take nearly an hour to complete")
+            print("   • Generate a large results file")
+            print("   • Provide comprehensive market insights")
+            
+            confirm = input("\n🚀 Proceed with Fortune 500 analysis? (y/n): ").strip().lower()
+            if confirm == 'y':
+                print("\n🔄 Starting Fortune 500 analysis...")
+                print("💡 TIP: Results will be saved automatically. Safe to stop with Ctrl+C.")
+                
+                try:
+                    # Process in chunks of 100 with progress saving
+                    results = process_stock_chunk(FORTUNE_500_STOCKS, delay=5, 
+                                                chunk_info="Fortune 500 - ")
+                    display_batch_results(results)
+                    
+                    # Save results automatically
+                    filename = f"fortune_500_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+                    save_results_to_file(results, filename)
+                    
+                    print(f"\n🎉 Fortune 500 analysis complete!")
+                    print(f"📊 Successfully analyzed {len([r for r in results if 'error' not in r])} stocks")
+                    print(f"💾 Results saved to: {filename}")
+                    
+                except KeyboardInterrupt:
+                    print("\n\n⏹️  Analysis stopped by user.")
+                    if 'results' in locals() and results:
+                        filename = f"fortune_500_partial_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+                        save_results_to_file(results, filename)
+                        print(f"💾 Partial results saved to: {filename}")
+        
         else:
-            print("Invalid choice. Please enter 1, 2, 3, 4, or 5.")
+            print("Invalid choice. Please enter 1, 2, 3, 4, 5, or 6.")
         
         print("\n" + "="*50 + "\n")
 

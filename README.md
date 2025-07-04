@@ -88,6 +88,7 @@ Currently available executables:
    - **Option 2**: Multiple stocks (comma-separated list)
    - **Option 3**: Sector analysis (choose from 7 predefined sectors)
    - **Option 4**: Comprehensive market analysis (125+ stocks, ~15 minutes)
+   - **Option 5**: Fortune 500 analysis (597+ stocks, ~50 minutes)
 
 ## Sample Output
 
