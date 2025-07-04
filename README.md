@@ -81,9 +81,17 @@ The tool includes built-in rate limiting:
 - **30-second breaks** between sectors (for comprehensive analysis)
 - **Progress saving** to avoid losing data if interrupted
 
-## Disclaimer
+## ⚠️ Important Disclaimer
 
-This tool is for **educational and research purposes only**. The data is sourced from publicly available Yahoo Finance information. Always consult with financial professionals before making investment decisions.
+**This tool is for educational and research purposes only. It is NOT financial advice.**
+
+- **No investment recommendations**: This tool displays analyst forecasts but does not recommend buying or selling any securities
+- **Past performance does not guarantee future results**: Analyst forecasts are opinions and may be incorrect
+- **No liability**: The author(s) are not responsible for any financial losses incurred from using this information
+- **Do your own research**: Always conduct thorough research and consult qualified financial professionals before making investment decisions
+- **Third-party data**: All data is sourced from publicly available Yahoo Finance information and may contain errors or delays
+
+**USE AT YOUR OWN RISK. INVEST RESPONSIBLY.**
 
 ## Contributing
 
