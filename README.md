@@ -13,11 +13,27 @@ A comprehensive Python tool for analyzing stock analyst forecasts across differe
 
 ## Installation
 
-### Prerequisites
+### 🚀 Option 1: Download Executable (Easiest - No Python Required)
+
+**Perfect for beginners, elderly users, or anyone who wants to run immediately!**
+
+1. **Download the executable**:
+   - Go to the [Releases page](https://github.com/yo1233/stock-forecast-analyzer/releases)
+   - Download `StockForecastAnalyzer.exe` (Windows) or `StockForecastAnalyzer` (Mac/Linux)
+
+2. **Run the program**:
+   - **Windows**: Double-click `StockForecastAnalyzer.exe`
+   - **Mac/Linux**: Open terminal, navigate to download folder, run `./StockForecastAnalyzer`
+
+3. **That's it!** The program will start immediately with no installation required.
+
+### 🔧 Option 2: From Source Code (For Developers)
+
+**Prerequisites:**
 - Python 3.7 or higher
 - pip (Python package installer)
 
-### Setup
+**Setup:**
 
 1. **Clone the repository**:
    ```bash
@@ -92,6 +108,32 @@ The tool includes built-in rate limiting:
 - **Third-party data**: All data is sourced from publicly available Yahoo Finance information and may contain errors or delays
 
 **USE AT YOUR OWN RISK. INVEST RESPONSIBLY.**
+
+## 🔨 Building Your Own Executable
+
+If you want to create your own executable from the source code:
+
+### Prerequisites
+- Python 3.7+ with virtual environment set up (see Option 2 above)
+- PyInstaller installed: `pip install pyinstaller`
+
+### Build Steps
+1. **Clone and set up the project** (see Option 2 installation)
+
+2. **Run the build script**:
+   ```bash
+   ./build.sh
+   ```
+
+3. **Find your executable**:
+   - Located in `dist/StockForecastAnalyzer`
+   - Size: ~46MB (includes all dependencies)
+   - Works on any machine of the same OS (no Python required)
+
+### Cross-Platform Building
+- **Windows**: Build on Windows to create `.exe`
+- **macOS**: Build on Mac to create macOS executable  
+- **Linux**: Build on Linux to create Linux executable
 
 ## Contributing
 
