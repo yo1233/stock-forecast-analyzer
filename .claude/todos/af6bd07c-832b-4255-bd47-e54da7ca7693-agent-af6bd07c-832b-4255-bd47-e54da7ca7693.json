@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Implement Option 4: All Sectors Analysis with chunked processing",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Add progress saving between chunks",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Update main menu to include Option 4",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

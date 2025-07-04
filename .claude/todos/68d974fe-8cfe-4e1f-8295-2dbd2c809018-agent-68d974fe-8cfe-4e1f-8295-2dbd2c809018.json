@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Guide user through Alpha Vantage API key setup",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create working Alpha Vantage stock analyzer script",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Test with NVDA to ensure real analyst data works",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  }
+]

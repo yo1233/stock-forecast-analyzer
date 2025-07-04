@@ -1,0 +1,232 @@
+{
+  "numStartups": 2,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "theme": "light",
+  "tipsHistory": {
+    "new-user-warmup": 1
+  },
+  "firstStartTime": "2025-07-04T04:01:22.670Z",
+  "userID": "a347a7edbffd3a40ef5ed50046615c942433c2df02b1a25a066b1c6328e5cac9",
+  "projects": {
+    "/home/kumar": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "How do I actually share it? (especially considering how I needed to open up a venv, etc)",
+          "pastedContents": {}
+        },
+        {
+          "display": "Is this completely legal and ethical? Can I post this to my github account?",
+          "pastedContents": {}
+        },
+        {
+          "display": "Option 2",
+          "pastedContents": {}
+        },
+        {
+          "display": "Would it be a good idea to take all stocks from all sectors (the 125 stocks you have now) and have an option 4, where we can search all of them wth 5s delay (total of around 10 minutes)?",
+          "pastedContents": {}
+        },
+        {
+          "display": "Perfect. Now can you also make it so that the top opportunities list shows all stocks in the sector, not just the top stocks? (The highest max upside potentials and highest downside risks should still only be top 5 though)",
+          "pastedContents": {}
+        },
+        {
+          "display": "Perfect. But can you also include average forecast? Overall, in your output format under top opportunities include rank, symbol, current, avg forecast (price and percent), low-high range (price), low-high range (percent), and rec (buy vs sell etc)? And also make it so that the user does not have to enter y/n to proceed (remove prompting the user \"process 25 tech stocks with 5.0s delay?\")",
+          "pastedContents": {}
+        },
+        {
+          "display": "Perfect. Now do the same thing, but also give the minimum and maximum 12 month forecasts (both price and percentage). Also, default to 5 seconds between requests so the program doesn't have to ask the user",
+          "pastedContents": {}
+        },
+        {
+          "display": "Can you make it so that the program asks for which sector I would like to find out about, and then uses that sector?",
+          "pastedContents": {}
+        },
+        {
+          "display": "Lets start with option 3",
+          "pastedContents": {}
+        },
+        {
+          "display": "What is the risk of getting blocked for each option?",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +0 lines] Can you check this list? Is this too long of a list?",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "['MMM', 'AOS', 'ABT', 'ABBV', 'ACN', 'ADBE', 'AMD', 'AES', 'AFL', 'A', 'APD', 'ABNB', 'AKAM', 'ALB', 'ARE', 'ALGN', 'ALLE', 'LNT', 'ALL', 'GOOGL', 'GOOG', 'MO', 'AMZN', 'AMCR', 'AEE', 'AEP', 'AXP', 'AIG', 'AMT', 'AWK', 'AMP', 'AME', 'AMGN', 'APH', 'ADI', 'ANSS', 'AON', 'APA', 'APO', 'AAPL', 'AMAT', 'APTV', 'ACGL', 'ADM', 'ANET', 'AJG', 'AIZ', 'T', 'ATO', 'ADSK', 'ADP', 'AZO', 'AVB', 'AVY', 'AXON', 'BKR', 'BALL', 'BAC', 'BAX', 'BDX', 'BRK.B', 'BBY', 'TECH', 'BIIB', 'BLK', 'BX', 'BK', 'BA', 'BKNG', 'BSX', 'BMY', 'AVGO', 'BR', 'BRO', 'BF.B', 'BLDR', 'BG', 'BXP', 'CHRW', 'CDNS', 'CZR', 'CPT', 'CPB', 'COF', 'CAH', 'KMX', 'CCL', 'CARR', 'CAT', 'CBOE', 'CBRE', 'CDW', 'COR', 'CNC', 'CNP', 'CF', 'CRL', 'SCHW', 'CHTR', 'CVX', 'CMG', 'CB', 'CHD', 'CI', 'CINF', 'CTAS', 'CSCO', 'C', 'CFG', 'CLX', 'CME', 'CMS', 'KO', 'CTSH', 'COIN', 'CL', 'CMCSA', 'CAG', 'COP', 'ED', 'STZ', 'CEG', 'COO', 'CPRT', 'GLW', 'CPAY', 'CTVA', 'CSGP', 'COST', 'CTRA', 'CRWD', 'CCI', 'CSX', 'CMI', 'CVS', 'DHR', 'DRI', 'DVA', 'DAY', 'DECK', 'DE', 'DELL', 'DAL', 'DVN', 'DXCM', 'FANG', 'DLR', 'DG', 'DLTR', 'D', 'DPZ', 'DASH', 'DOV', 'DOW', 'DHI', 'DTE', 'DUK', 'DD', 'EMN', 'ETN', 'EBAY', 'ECL', 'EIX', 'EW', 'EA', 'ELV', 'EMR', 'ENPH', 'ETR', 'EOG', 'EPAM', 'EQT', 'EFX', 'EQIX', 'EQR', 'ERIE', 'ESS', 'EL', 'EG', 'EVRG', 'ES', 'EXC', 'EXE', 'EXPE', 'EXPD', 'EXR', 'XOM', 'FFIV', 'FDS', 'FICO', 'FAST', 'FRT', 'FDX', 'FIS', 'FITB', 'FSLR', 'FE', 'FI', 'F', 'FTNT', 'FTV', 'FOXA', 'FOX', 'BEN', 'FCX', 'GRMN', 'IT', 'GE', 'GEHC', 'GEV', 'GEN', 'GNRC', 'GD', 'GIS', 'GM', 'GPC', 'GILD', 'GPN', 'GL', 'GDDY', 'GS', 'HAL', 'HIG', 'HAS', 'HCA', 'DOC', 'HSIC', 'HSY', 'HES', 'HPE', 'HLT', 'HOLX', 'HD', 'HON', 'HRL', 'HST', 'HWM', 'HPQ', 'HUBB', 'HUM', 'HBAN', 'HII', 'IBM', 'IEX', 'IDXX', 'ITW', 'INCY', 'IR', 'PODD', 'INTC', 'ICE', 'IFF', 'IP', 'IPG', 'INTU', 'ISRG', 'IVZ', 'INVH', 'IQV', 'IRM', 'JBHT', 'JBL', 'JKHY', 'J', 'JNJ', 'JCI', 'JPM', 'K', 'KVUE', 'KDP', 'KEY', 'KEYS', 'KMB', 'KIM', 'KMI', 'KKR', 'KLAC', 'KHC', 'KR', 'LHX', 'LH', 'LRCX', 'LW', 'LVS', 'LDOS', 'LEN', 'LII', 'LLY', 'LIN', 'LYV', 'LKQ', 'LMT', 'L', 'LOW', 'LULU', 'LYB', 'MTB', 'MPC', 'MKTX', 'MAR', 'MMC', 'MLM', 'MAS', 'MA', 'MTCH', 'MKC', 'MCD', 'MCK', 'MDT', 'MRK', 'META', 'MET', 'MTD', 'MGM', 'MCHP', 'MU', 'MSFT', 'MAA', 'MRNA', 'MHK', 'MOH', 'TAP', 'MDLZ', 'MPWR', 'MNST', 'MCO', 'MS', 'MOS', 'MSI', 'MSCI', 'NDAQ', 'NTAP', 'NFLX', 'NEM', 'NWSA', 'NWS', 'NEE', 'NKE', 'NI', 'NDSN', 'NSC', 'NTRS', 'NOC', 'NCLH', 'NRG', 'NUE', 'NVDA', 'NVR', 'NXPI', 'ORLY', 'OXY', 'ODFL', 'OMC', 'ON', 'OKE', 'ORCL', 'OTIS', 'PCAR', 'PKG', 'PLTR', 'PANW', 'PARA', 'PH', 'PAYX', 'PAYC', 'PYPL', 'PNR', 'PEP', 'PFE', 'PCG', 'PM', 'PSX', 'PNW', 'PNC', 'POOL', 'PPG', 'PPL', 'PFG', 'PG', 'PGR', 'PLD', 'PRU', 'PEG', 'PTC', 'PSA', 'PHM', 'PWR', 'QCOM', 'DGX', 'RL', 'RJF', 'RTX', 'O', 'REG', 'REGN', 'RF', 'RSG', 'RMD', 'RVTY', 'ROK', 'ROL', 'ROP', 'ROST', 'RCL', 'SPGI', 'CRM', 'SBAC', 'SLB', 'STX', 'SRE', 'NOW', 'SHW', 'SPG', 'SWKS', 'SJM', 'SW', 'SNA', 'SOLV', 'SO', 'LUV', 'SWK', 'SBUX', 'STT', 'STLD', 'STE', 'SYK', 'SMCI', 'SYF', 'SNPS', 'SYY', 'TMUS', 'TROW', 'TTWO', 'TPR', 'TRGP', 'TGT', 'TEL', 'TDY', 'TER', 'TSLA', 'TXN', 'TPL', 'TXT', 'TMO', 'TJX', 'TKO', 'TSCO', 'TT', 'TDG', 'TRV', 'TRMB', 'TFC', 'TYL', 'TSN', 'USB', 'UBER', 'UDR', 'ULTA', 'UNP', 'UAL', 'UPS', 'URI', 'UNH', 'UHS', 'VLO', 'VTR', 'VLTO', 'VRSN', 'VRSK', 'VZ', 'VRTX', 'VTRS', 'VICI', 'V', 'VST', 'VMC', 'WRB', 'GWW', 'WAB', 'WBA', 'WMT', 'DIS', 'WBD', 'WM', 'WAT', 'WEC', 'WFC', 'WELL', 'WST', 'WDC', 'WY', 'WSM', 'WMB', 'WTW', 'WDAY', 'WYNN', 'XEL', 'XYL', 'YUM', 'ZBRA', 'ZBH', 'ZTS']"
+            }
+          }
+        },
+        {
+          "display": "Small subset. If I give you a list of stocks, can you just implement those? (still regaridng rate limiting and error handling)",
+          "pastedContents": {}
+        },
+        {
+          "display": "Is it possible to fetch all fortune 500 companies and check their forecasts in the same program if I inputted \"all\"? (regarding rate limits, robots.txt etc)",
+          "pastedContents": {}
+        },
+        {
+          "display": "[Pasted text #1 +19 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "(stock_env) kumar@Laptop:~$ python3 stock_forecast.py\nEnter a stock symbol (or 'quit' to exit): NVDA\nError fetching data for NVDA: 'Ticker' object has no attribute 'analyst_price_target'\nPlease check if the stock symbol is correct and try again.\n\n==================================================\n\nEnter a stock symbol (or 'quit' to exit): nvda\nError fetching data for NVDA: 'Ticker' object has no attribute 'analyst_price_target'\nPlease check if the stock symbol is correct and try again.\n\n==================================================\n\nEnter a stock symbol (or 'quit' to exit): aapl\nError fetching data for AAPL: 'Ticker' object has no attribute 'analyst_price_target'\nPlease check if the stock symbol is correct and try again.\n\n==================================================\n\nEnter a stock symbol (or 'quit' to exit):"
+            }
+          }
+        },
+        {
+          "display": "I get this now: [Pasted text #1 +23 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "kumar@Laptop:~$ sudo pip install yfinance\nerror: externally-managed-environment\n\n× This environment is externally managed\n╰─> To install Python packages system-wide, try apt install\n    python3-xyz, where xyz is the package you are trying to\n    install.\n\n    If you wish to install a non-Debian-packaged Python package,\n    create a virtual environment using python3 -m venv path/to/venv.\n    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make\n    sure you have python3-full installed.\n\n    If you wish to install a non-Debian packaged Python application,\n    it may be easiest to use pipx install xyz, which will manage a\n    virtual environment for you. Make sure you have pipx installed.\n\n    See /usr/share/doc/python3.12/README.venv for more information.\n\nnote: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.\nhint: See PEP 668 for the detailed specification.\nkumar@Laptop:~$ apt install python3-yfinance\nE: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?"
+            }
+          }
+        },
+        {
+          "display": "Make a program that prompts \"enter a stock:\", takes the stock entered (for example, NVDA) and uses yahoo finance's library (pip install yfinance) to fetch its analyst 12 month stock forecast",
+          "pastedContents": {}
+        },
+        {
+          "display": "My goal is to be able to fetch all 500 companies in the s&p 500 and see their stock forecasts for the next 12 months and use this data. How can I do this?",
+          "pastedContents": {}
+        },
+        {
+          "display": "How do I stop a program while its running in the terminal?",
+          "pastedContents": {}
+        },
+        {
+          "display": "What does it mean if suddenly I get a ton of \"could not fetch quote for...\" in a row?",
+          "pastedContents": {}
+        },
+        {
+          "display": "Awesome. Now change the output format to include the percentage increase or decreases of the target range. In your output, include: 1. Current price (which you did), 2. Forecast percent (which you did, but also include the price), Minimum forecasted price and percent, maximum forecasted price and percent, today's change, and the rest of the stuff you already have",
+          "pastedContents": {}
+        },
+        {
+          "display": "Do you need me to do anything related to that alpha vantage api key thing or did you take care of it? If I run the code right now, will it work?",
+          "pastedContents": {}
+        },
+        {
+          "display": "1",
+          "pastedContents": {}
+        },
+        {
+          "display": "Option b but only if it is free",
+          "pastedContents": {}
+        },
+        {
+          "display": "Use option 1 (WallStreetZen) (of course being ethical about rate limits and robots.txt) with credentials: email veryfastyo@gmail.com and password on the website: i23GW$Uzit!UShJ and it looks like I can see forecasts at (using NVDA as an example): wallstreetzen.com/stocks/us/nasdaq/nvda/stock-forecast. Let me know if you need the classes or ids of the divs (and exactly which divs you need the classes of)",
+          "pastedContents": {}
+        },
+        {
+          "display": "I tried again and got this: [Pasted text #1 +19 lines] But I only want real data, not estimates. What are my options now? Would I have to gıve some sort of credentıals (for example I have a wallstreetzen account and I can see stockforecasts for free there, can I leverage that in any way)?",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Ethical Stock Scraper - 12-month forecasts via web scraping\nRespects robots.txt and implements conservative rate limiting\n=================================================================\n✓ = Scraped real data  |  ⚠ = Estimated when scraping blocked\n=================================================================\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit): NVDA\nFetching data for NVDA...\nRate limiting: waiting 2.6s for finance.yahoo.com\nCould not extract analyst targets for NVDA from Yahoo Finance\nCould not extract analyst targets for NVDA from Seeking Alpha\n\n--- NVDA Analysis ---\nCurrent Price: $159.34\n12-Month Price Target: $183.24\nForecast: +15.0%\nTarget Range: $175.27 - $199.18\n⚠ Conservative_Estimate (real data unavailable)\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit):"
+            }
+          }
+        },
+        {
+          "display": "[Pasted text #1 +39 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "kumar@Laptop:~$ python3 stock_scraper.py\nEthical Stock Scraper - 12-month forecasts via web scraping\nRespects robots.txt and implements conservative rate limiting\n=================================================================\n✓ = Scraped real data  |  ⚠ = Estimated when scraping blocked\n=================================================================\n\\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit): NVDA\nFetching data for NVDA...\nTraceback (most recent call last):\n  File \"/home/kumar/stock_scraper.py\", line 339, in <module>\n    main()\n  File \"/home/kumar/stock_scraper.py\", line 334, in main\n    scraper.analyze_single_stock(stock_input)\n  File \"/home/kumar/stock_scraper.py\", line 268, in analyze_single_stock\n    data = self.get_stock_data(symbol)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/kumar/stock_scraper.py\", line 198, in get_stock_data\n    current_price = self.get_stock_price_yahoo(symbol)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/kumar/stock_scraper.py\", line 105, in get_stock_price_yahoo\n    match = re.search(pattern, html, re.IGNORECASE)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/__init__.py\", line 177, in search\n    return _compile(pattern, flags).search(string)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/__init__.py\", line 307, in _compile\n    p = _compiler.compile(pattern, flags)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/_compiler.py\", line 745, in compile\n    p = _parser.parse(p, flags)\n        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/_parser.py\", line 979, in parse\n    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/_parser.py\", line 460, in _parse_sub\n    itemsappend(_parse(source, state, verbose, nested + 1,\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/re/_parser.py\", line 687, in _parse\n    raise source.error(\"nothing to repeat\",\nre.error: nothing to repeat at position 46"
+            }
+          }
+        },
+        {
+          "display": "What does this mean? ... kumar@Laptop:~$ python3 stock_scraper.py\n  File \"/home/kumar/stock_scraper.py\", line 30\n    \\\"\\\"\\\"Check if scraping is allowed by robots.txt\\\"\\\"\\\"\n     ^\nSyntaxError: unexpected character after line continuation character",
+          "pastedContents": {}
+        },
+        {
+          "display": "Can you take a new approach to this? Instead of using an api, can you try web scraping from either yahoo finance, marketwatch, cnn money or seeking alpha to get 12 month forecasts? With respect to their robots.txt and rate limits of course",
+          "pastedContents": {}
+        },
+        {
+          "display": "Why is this happening? ...[Pasted text #1 +17 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Stock Analyzer - Get current prices and 12-month forecasts\nUsing Financial Modeling Prep API for real analyst data\n==================================================\nNote: Using demo API keys. For production use, get your own key at:\n- Financial Modeling Prep: https://financialmodelingprep.com/developer/docs\n==================================================\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit): NVDA\n\nAnalyzing NVDA...\nRequest failed: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/api/v3/quote/NVDA?apikey=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/api/v3/analyst-stock-recommendations/NVDA?apikey=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/api/v3/price-target/NVDA?apikey=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://query1.finance.yahoo.com/v10/finance/quoteSummary/NVDA?modules=financialData\nCould not fetch analyst forecast for NVDA\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit):\n"
+            }
+          }
+        },
+        {
+          "display": "Why is this happening?... [Pasted text #1 +23 lines]",
+          "pastedContents": {
+            "1": {
+              "id": 1,
+              "type": "text",
+              "content": "Using Finnhub API for real analyst data\n==================================================\nNote: Using demo API keys. For production use, get your own keys at:\n- Finnhub: https://finnhub.io/register\n- Alpha Vantage: https://www.alphavantage.co/support/#api-key\n==================================================\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit): NVDA\n\nAnalyzing NVDA...\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=NVDA&token=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/stock/price-target?symbol=NVDA&token=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/stock/recommendation?symbol=NVDA&token=demo\nRequest failed: Expecting value: line 1 column 1 (char 0)\nCould not fetch analyst forecast for NVDA\n\nEnter a stock symbol (or 'all' to screen stocks, 'quit' to exit): AAPL\n\nAnalyzing AAPL...\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AAPL&token=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/stock/price-target?symbol=AAPL&token=demo\nRequest failed: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/stock/recommendation?symbol=AAPL&token=demo\nRequest failed: Expecting value: line 1 column 1 (char 0)\nCould not fetch analyst forecast for AAPL"
+            }
+          }
+        },
+        {
+          "display": "Can you use something other than yahoo finance instead of estimating 12% increase? To actually get analyst data",
+          "pastedContents": {}
+        },
+        {
+          "display": "I tried NVDA and this was my output: Enter a stock symbol (or 'all' to screen stocks, 'quit' to exit): NVDA\n\nAnalyzing NVDA...\nRequest failed: 401 Client Error: Unauthorized for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/NVDA?modules=financialData%2CrecommendationTrend%2CupgradeDowngradeHistory\nCould not fetch analyst forecast for NVDA",
+          "pastedContents": {}
+        },
+        {
+          "display": "Good but in popular_stocks, include more than that. Include all fortune 500 companies",
+          "pastedContents": {}
+        },
+        {
+          "display": "Write me a program that prompts \"Enter a stock:\" and can do 2 things: 1. When given a stock, gives its current price and 12 month forecast (price and percent increase or decrease). 2. If I input \"all,\" it will ask me a certain percentage (for example, 30%). It will then fetch all 12-month stock forecasts available from real analysts (taken from an external source such as yahoo finance or something) and returns all stocks with an average stock forecast of the certain percentage parameter (in this case, all stocks forecasted to increase at least 30% in the next 12 months). Pay attnetion to rate limits so we don't get flagged for sending too many requests to websites",
+          "pastedContents": {}
+        },
+        {
+          "display": "Write me a new program that does 2 things: fetches stock forecasts (from an external source, such as yahoo finance or something, but legit stock forecasts from real analysts) and returns a list of a ",
+          "pastedContents": {}
+        },
+        {
+          "display": "Where did you save that file",
+          "pastedContents": {}
+        },
+        {
+          "display": "Create a program that returns the factorial of any number",
+          "pastedContents": {}
+        }
+      ],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 5
+    }
+  },
+  "oauthAccount": {
+    "accountUuid": "eb842624-2c61-4834-843e-97df90e4e529",
+    "emailAddress": "jamesyazici@gmail.com",
+    "organizationUuid": "6993c535-b35f-4147-b0f1-cd5765569a6f",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "jamesyazici@gmail.com's Organization"
+  },
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.43",
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "cachedChangelog": "# Changelog\n\n## 1.0.43\n\n- Fixed a bug where the theme selector was saving excessively\n\n## 1.0.42\n\n- Added tilde (`~`) expansion support to `/add-dir` command\n\n## 1.0.41\n\n- Hooks: Split Stop hook triggering into Stop and SubagentStop\n- Hooks: Enabled optional timeout configuration for each command\n- Hooks: Added \"hook_event_name\" to hook input\n- Fixed a bug where MCP tools would display twice in tool list\n- New tool parameters JSON for Bash tool in `tool_decision` event\n\n## 1.0.40\n\n- Fixed a bug causing API connection errors with UNABLE_TO_GET_ISSUER_CERT_LOCALLY if `NODE_EXTRA_CA_CERTS` was set\n\n## 1.0.39\n\n- New Active Time metric in OpenTelemetry logging\n\n## 1.0.38\n\n- Released hooks. Special thanks to community input in https://github.com/anthropics/claude-code/issues/712. Docs: https://docs.anthropic.com/en/docs/claude-code/hooks\n\n## 1.0.37\n\n- Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper\n\n## 1.0.36\n\n- Web search now takes today's date into context\n- Fixed a bug where stdio MCP servers were not terminating properly on exit\n\n## 1.0.35\n\n- Added support for MCP OAuth Authorization Server discovery\n\n## 1.0.34\n\n- Fixed a memory leak causing a MaxListenersExceededWarning message to appear\n\n## 1.0.33\n\n- Improved logging functionality with session ID support\n- Added undo functionality (Ctrl+Z and vim 'u' command)\n- Improvements to plan mode\n\n## 1.0.32\n\n- Updated loopback config for litellm\n- Added forceLoginMethod setting to bypass login selection screen\n\n## 1.0.31\n\n- Fixed a bug where ~/.claude.json would get reset when file contained invalid JSON\n\n## 1.0.30\n\n- Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords\n- Improved file path autocomplete with filename matching\n- Added timestamps in Ctrl-r mode and fixed Ctrl-c handling\n- Enhanced jq regex support for complex filters with pipes and select\n\n## 1.0.29\n\n- Improved CJK character support in cursor navigation and rendering\n\n## 1.0.28\n\n- Slash commands: Fix selector display during history navigation\n- Resizes images before upload to prevent API size limit errors\n- Added XDG_CONFIG_HOME support to configuration directory\n- Performance optimizations for memory usage\n- New attributes (terminal.type, language) in OpenTelemetry logging\n\n## 1.0.27\n\n- Streamable HTTP MCP servers are now supported\n- Remote MCP servers (SSE and HTTP) now support OAuth\n- MCP resources can now be @-mentioned\n- /resume slash command to switch conversations within Claude Code\n\n## 1.0.25\n\n- Slash commands: moved \"project\" and \"user\" prefixes to descriptions\n- Slash commands: improved reliability for command discovery\n- Improved support for Ghostty\n- Improved web search reliability\n\n## 1.0.24\n\n- Improved /mcp output\n- Fixed a bug where settings arrays got overwritten instead of merged\n\n## 1.0.23\n\n- Released TypeScript SDK: import @anthropic-ai/claude-code to get started\n- Released Python SDK: pip install claude-code-sdk to get started\n\n## 1.0.22\n\n- SDK: Renamed `total_cost` to `total_cost_usd`\n\n## 1.0.21\n\n- Improved editing of files with tab-based indentation\n- Fix for tool_use without matching tool_result errors\n- Fixed a bug where stdio MCP server processes would linger after quitting Claude Code\n\n## 1.0.18\n\n- Added --add-dir CLI argument for specifying additional working directories\n- Added streaming input support without require -p flag\n- Improved startup performance and session storage performance\n- Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands\n- Added detailed MCP server tools display (/mcp)\n- MCP authentication and permission improvements\n- Added auto-reconnection for MCP SSE connections on disconnect\n- Fixed issue where pasted content was lost when dialogs appeared\n\n## 1.0.17\n\n- We now emit messages from sub-tasks in -p mode (look for the parent_tool_use_id property)\n- Fixed crashes when the VS Code diff tool is invoked multiple times quickly\n- MCP server list UI improvements\n- Update Claude Code process title to display \"claude\" instead of \"node\"\n\n## 1.0.11\n\n- Claude Code can now also be used with a Claude Pro subscription\n- Added /upgrade for smoother switching to Claude Max plans\n- Improved UI for authentication from API keys and Bedrock/Vertex/external auth tokens\n- Improved shell configuration error handling\n- Improved todo list handling during compaction\n\n## 1.0.10\n\n- Added markdown table support\n- Improved streaming performance\n\n## 1.0.8\n\n- Fixed Vertex AI region fallback when using CLOUD_ML_REGION\n- Increased default otel interval from 1s -> 5s\n- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected\n- Fixed a regression where search tools unnecessarily asked for permissions\n- Added support for triggering thinking non-English languages\n- Improved compacting UI\n\n## 1.0.7\n\n- Renamed /allowed-tools -> /permissions\n- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json\n- Deprecated claude config commands in favor of editing settings.json\n- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode\n- Improved error handling for /install-github-app\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.6\n\n- Improved edit reliability for tab-indented files\n- Respect CLAUDE_CONFIG_DIR everywhere\n- Reduced unnecessary tool permission prompts\n- Added support for symlinks in @file typeahead\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.4\n\n- Fixed a bug where MCP tool errors weren't being parsed correctly\n\n## 1.0.1\n\n- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.\n- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)\n- Updated documentation links and OAuth process descriptions\n\n## 1.0.0\n\n- Claude Code is now generally available\n- Introducing Sonnet 4 and Opus 4 models\n\n## 0.2.125\n\n- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)\n- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests\n\n## 0.2.117\n\n- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields\n- Introduced settings.cleanupPeriodDays\n- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var\n- Introduced --debug mode\n\n## 0.2.108\n\n- You can now send messages to Claude while it works to steer Claude in real-time\n- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars\n- Fixed a bug where thinking was not working in -p mode\n- Fixed a regression in /cost reporting\n- Deprecated MCP wizard interface in favor of other MCP commands\n- Lots of other bugfixes and improvements\n\n## 0.2.107\n\n- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch\n\n## 0.2.106\n\n- MCP SSE server configs can now specify custom headers\n- Fixed a bug where MCP permission prompt didn't always show correctly\n\n## 0.2.105\n\n- Claude can now search the web\n- Moved system & account status to /status\n- Added word movement keybindings for Vim\n- Improved latency for startup, todo tool, and file edits\n\n## 0.2.102\n\n- Improved thinking triggering reliability\n- Improved @mention reliability for images and folders\n- You can now paste multiple large chunks into one prompt\n\n## 0.2.100\n\n- Fixed a crash caused by a stack overflow error\n- Made db storage optional; missing db support disables --continue and --resume\n\n## 0.2.98\n\n- Fixed an issue where auto-compact was running twice\n\n## 0.2.96\n\n- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)\n\n## 0.2.93\n\n- Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"\n- Claude now has access to a Todo list that helps it stay on track and be more organized\n\n## 0.2.82\n\n- Added support for --disallowedTools\n- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.\n\n## 0.2.75\n\n- Hit Enter to queue up additional messages while Claude is working\n- Drag in or copy/paste image files directly into the prompt\n- @-mention files to directly add them to context\n- Run one-off MCP servers with `claude --mcp-config <path-to-file>`\n- Improved performance for filename auto-complete\n\n## 0.2.74\n\n- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL\n- Task tool can now perform writes and run bash commands\n\n## 0.2.72\n\n- Updated spinner to indicate tokens loaded and tool usage\n\n## 0.2.70\n\n- Network commands like curl are now available for Claude to use\n- Claude can now run multiple web queries in parallel\n- Pressing ESC once immediately interrupts Claude in Auto-accept mode\n\n## 0.2.69\n\n- Fixed UI glitches with improved Select component behavior\n- Enhanced terminal output display with better text truncation logic\n\n## 0.2.67\n\n- Shared project permission rules can be saved in .claude/settings.json\n\n## 0.2.66\n\n- Print mode (-p) now supports streaming output via --output-format=stream-json\n- Fixed issue where pasting could trigger memory or bash mode unexpectedly\n\n## 0.2.63\n\n- Fixed an issue where MCP tools were loaded twice, which caused tool call errors\n\n## 0.2.61\n\n- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction\n- Enhanced image detection for more reliable clipboard paste functionality\n- Fixed an issue where ESC key could crash the conversation history selector\n\n## 0.2.59\n\n- Copy+paste images directly into your prompt\n- Improved progress indicators for bash and fetch tools\n- Bugfixes for non-interactive mode (-p)\n\n## 0.2.54\n\n- Quickly add to Memory by starting your message with '#'\n- Press ctrl+r to see full output for long tool results\n- Added support for MCP SSE transport\n\n## 0.2.53\n\n- New web fetch tool lets Claude view URLs that you paste in\n- Fixed a bug with JPEG detection\n\n## 0.2.50\n\n- New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository\n\n## 0.2.49\n\n- Previous MCP server scopes have been renamed: previous \"project\" scope is now \"local\" and \"global\" scope is now \"user\"\n\n## 0.2.47\n\n- Press Tab to auto-complete file and folder names\n- Press Shift + Tab to toggle auto-accept for file edits\n- Automatic conversation compaction for infinite conversation length (toggle with /config)\n\n## 0.2.44\n\n- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'\n\n## 0.2.41\n\n- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable\n- MCP server startup no longer blocks the app from starting up\n\n## 0.2.37\n\n- New /release-notes command lets you view release notes at any time\n- `claude config add/remove` commands now accept multiple values separated by commas or spaces\n\n## 0.2.36\n\n- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`\n- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`\n\n## 0.2.34\n\n- Vim bindings for text input - enable with /vim or /config\n\n## 0.2.32\n\n- Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface\n- Fix for some PersistentShell issues\n\n## 0.2.31\n\n- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation\n- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors\n\n## 0.2.30\n\n- Added ANSI color theme for better terminal compatibility\n- Fixed issue where slash command arguments weren't being sent properly\n- (Mac-only) API keys are now stored in macOS Keychain\n\n## 0.2.26\n\n- New /approved-tools command for managing tool permissions\n- Word-level diff display for improved code readability\n- Fuzzy matching for slash commands\n\n## 0.2.21\n\n- Fuzzy matching for /commands\n",
+  "changelogLastFetched": 1751607336510,
+  "fallbackAvailableWarningThreshold": 0.5
+}
