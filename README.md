@@ -39,10 +39,12 @@ A comprehensive Python tool for analyzing stock analyst forecasts across differe
    - Open Command Prompt in that folder
    - Run: `pip install yfinance pandas` then `python stock_forecast.py`
 
-### 🖥️ Option 2: Executable Files (Coming Soon)
+### 🖥️ Option 2: Executable Files 
 
-We're working on pre-built executables for Windows (.exe) and Mac. Currently available:
+Currently available executables:
 - **Linux**: `StockForecastAnalyzer` (46MB) - Available in [Releases](https://github.com/yo1233/stock-forecast-analyzer/releases)
+- **Windows .exe**: Not yet available (use Python method above)
+- **Mac**: Not yet available (use Python method above)
 
 ### 🔧 Option 2: From Source Code (For Developers)
 
