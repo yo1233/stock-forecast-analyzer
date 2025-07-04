@@ -13,19 +13,36 @@ A comprehensive Python tool for analyzing stock analyst forecasts across differe
 
 ## Installation
 
-### 🚀 Option 1: Download Executable (Easiest - No Python Required)
+### 🚀 Option 1: Simple Python Setup (Recommended for Windows)
 
-**Perfect for beginners, elderly users, or anyone who wants to run immediately!**
+**Perfect for beginners, elderly users, or anyone who wants to run easily!**
 
-1. **Download the executable**:
-   - Go to the [Releases page](https://github.com/yo1233/stock-forecast-analyzer/releases)
-   - Download `StockForecastAnalyzer.exe` (Windows) or `StockForecastAnalyzer` (Mac/Linux)
+1. **Install Python** (if not already installed):
+   - Go to [python.org/downloads](https://www.python.org/downloads/)
+   - Download and install Python 3.7 or newer
+   - ✅ Check "Add Python to PATH" during installation
 
-2. **Run the program**:
-   - **Windows**: Double-click `StockForecastAnalyzer.exe`
-   - **Mac/Linux**: Open terminal, navigate to download folder, run `./StockForecastAnalyzer`
+2. **Download and run**:
+   ```cmd
+   # Download the repository
+   git clone https://github.com/yo1233/stock-forecast-analyzer.git
+   cd stock-forecast-analyzer
+   
+   # Install dependencies and run
+   pip install -r requirements.txt
+   python stock_forecast.py
+   ```
 
-3. **That's it!** The program will start immediately with no installation required.
+3. **Alternative: Download ZIP**:
+   - Click "Code" → "Download ZIP" on GitHub
+   - Extract the ZIP file
+   - Open Command Prompt in that folder
+   - Run: `pip install yfinance pandas` then `python stock_forecast.py`
+
+### 🖥️ Option 2: Executable Files (Coming Soon)
+
+We're working on pre-built executables for Windows (.exe) and Mac. Currently available:
+- **Linux**: `StockForecastAnalyzer` (46MB) - Available in [Releases](https://github.com/yo1233/stock-forecast-analyzer/releases)
 
 ### 🔧 Option 2: From Source Code (For Developers)
 
