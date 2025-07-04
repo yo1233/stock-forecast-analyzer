@@ -21,7 +21,7 @@ A comprehensive Python tool for analyzing stock analyst forecasts across differe
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/stock-forecast-analyzer.git
+   git clone https://github.com/yo1233/stock-forecast-analyzer.git
    cd stock-forecast-analyzer
    ```
 
